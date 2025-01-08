@@ -1,16 +1,18 @@
-
-import java.util.Scanner;
-
-public class PS002 {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter a number: ");
-        int num = scanner.nextInt();
-        scanner.close();
-
-        System.out.println("Multiples of 100 up to " + num + ":");
-        for (int i = 100; i <= num; i += 100) {
-            System.out.println(i);
-        }
+PS002 - Solution    package Core_Java;
+class NextMultipleOf100 {
+    
+    public static int getNextMultipleOf100(int num) {
+         if (num <= 0)
+             return -1;
+         return ((num / 100) + 1) * 100;
     }
+}
+
+public class PS002QnSol {
+    public static void main(String[] args) {
+        NextMultipleOf100 obj = new NextMultipleOf100();
+        int num = 223;
+        System.out.println(obj.getNextMultipleOf100(num));
+    }
+    
 }
