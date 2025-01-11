@@ -99,15 +99,11 @@ public class PS005 {
         System.out.println("Add employee1: " + collectionMap.addEmployee(employee1));
         System.out.println("Add employee2: " + collectionMap.addEmployee(employee2));
         System.out.println("Add employee1 again: " + collectionMap.addEmployee(employee1));
-
         System.out.println("Find employee1: " + collectionMap.findEmployee(1));
         System.out.println("Find employee2: " + collectionMap.findEmployee(2));
-
         System.out.println("Get employee list: " + collectionMap.getEmployeeList());
-
         System.out.println("Remove employee1: " + collectionMap.removeEmployee(1));
         System.out.println("Remove employee1 again: " + collectionMap.removeEmployee(1));
-
         System.out.println("Get employee list after removal: " + collectionMap.getEmployeeList());
     }
 }
