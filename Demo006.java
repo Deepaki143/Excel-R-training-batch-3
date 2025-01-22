@@ -1,16 +1,22 @@
+package Core_Java;
+
 import java.util.*;
 
-public class login {
+class Demo006{
     public static void main(String[] args) {
+        boolean a = true;
         Scanner sc = new Scanner(System.in);
-        String username,pass;
-        do{
-            System.out.println("Hello Mallareddy Unversity, Please Login: ");
+        while(true){
             System.out.print("Enter username: ");
-            username = sc.next();
+            String id = sc.next();
             System.out.print("Enter password: ");
-            pass = sc.next();
-        }while((!username.equals("Deepak"))||(!pass.equals("Deepak_123")));
-        System.out.println("Successfully logged in.");
+            String pass = sc.next();
+            if((id.equals("Revanth")) && (pass.equals("Revanth_123"))){
+                System.out.println("Hello Revanth, You are welcome ");
+                break;
+            }else{
+                System.out.println("credentials does not match. Please try again.");
+            }
+        }
     }
 }
