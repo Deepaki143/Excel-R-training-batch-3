@@ -1,13 +1,16 @@
-class example1{
-     public static void main(String[] args){
-        String userid="user001";
-        String password="user@001";
-        if (userid=="user001" & password=="user@001" ){
-            System.out.println("Happer New Year");
+package Core_Java;
+
+import java.util.Scanner;
+class Demo005 {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your password: ");
+        String password = sc.nextLine(); 
+        if (password.equals("user_001")) { 
+            System.out.println("Hello User, Happy New Year!");
+        } else {
+            System.out.println("Incorrect Password");
         }
-        else {
-            System.out.println("Invalid user or password");
-        }
- 
+        sc.close();
     }
 }
