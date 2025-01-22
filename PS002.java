@@ -1,4 +1,4 @@
-PS002 - Solution    package Core_Java;
+   package Core_Java;
 class NextMultipleOf100 {
     
     public static int getNextMultipleOf100(int num) {
@@ -8,7 +8,7 @@ class NextMultipleOf100 {
     }
 }
 
-public class PS002QnSol {
+public class PS002 {
     public static void main(String[] args) {
         NextMultipleOf100 obj = new NextMultipleOf100();
         int num = 223;
