@@ -1,3 +1,4 @@
+
  package Core_Java;
 class PalindromeOf3 {
 	boolean isPalindromeOf3Digits(int n){
