@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class EmpDetails {
+public class Demo011 {
     private String username;
     private long bnkaccount;
     private int blnce; 
@@ -16,7 +16,7 @@ public class EmpDetails {
         System.out.println("Hello "+username+"\nYour account number is:"+bnkaccount+"\nYour Balance is:"+blnce);
     }
     public static void main(String args[]){
-    EmpDetails obj = new EmpDetails();
+    Demo011 obj = new Demo011();
     obj.input();
     obj.display();
  }
