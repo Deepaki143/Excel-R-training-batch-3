@@ -1,5 +1,3 @@
-package Core_Java;
-
 import java.util.*;
 
 class Demo006{
@@ -11,8 +9,8 @@ class Demo006{
             String id = sc.next();
             System.out.print("Enter password: ");
             String pass = sc.next();
-            if((id.equals("Revanth")) && (pass.equals("Revanth_123"))){
-                System.out.println("Hello Revanth, You are welcome ");
+            if((id.equals("Deepak")) && (pass.equals("Deepak@123"))){
+                System.out.println("Hello Deepak, welcome ");
                 break;
             }else{
                 System.out.println("credentials does not match. Please try again.");
