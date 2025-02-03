@@ -1,5 +1,3 @@
-package Core_Java;
-
 import java.util.*;
 
 public class Demo008 {
@@ -12,7 +10,7 @@ public class Demo008 {
             username = sc.next();
             System.out.print("Enter password: ");
             pass = sc.next();
-        }while((!username.equals("Revanth"))||(!pass.equals("Revanth_123")));
+        }while((!username.equals("Deepak"))||(!pass.equals("Deepak@123")));
         System.out.println("Successfully logged in.");
     }
 }
